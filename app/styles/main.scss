@@ -15,6 +15,7 @@ $icon-font-path: '../fonts/';
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background: $gray-dark;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -51,6 +52,9 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
+  background: $gray-base;
+  color: #FF9F1C;
+
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
   .btn {
@@ -66,6 +70,108 @@ body {
     margin-top: 28px;
   }
 }
+
+#lyrics a {
+  padding: 15px 65px;
+}
+
+/***********************  TWITTER **************************/
+#lyrics #twitter {
+  background-color: white;
+  background-image: url('../images/TwitterLogo_white.png');
+  background-position: 10px 2px;
+  background-repeat: no-repeat;
+  background-size: 13%;
+}
+#lyrics a#twitter:visited {
+  background-color: $gray-light;
+  color: white;
+}
+
+
+/***********************  LINKEDIN **************************/
+#lyrics #linkedin {
+  background-color: white;
+  background-image: url('../images/LinkedInLogo_white.png');
+  background-position: 13px 7px;
+  background-repeat: no-repeat;
+  background-size: 10%;
+}
+#lyrics a#linkedin:visited {
+  background-color: $gray-light;
+  color: white;
+}
+
+
+/***********************  SPOTIFY **************************/
+#lyrics #spotify {
+  background-color: white;
+  background-image: url('../images/spotify_caca.png');
+  background-position: 13px 6px;
+  background-repeat: no-repeat;
+  background-size: 10%;
+}
+#lyrics a#spotify:visited {
+  background-color: $gray-light;
+  color: white;
+}
+
+
+/***********************  GITHUB **************************/
+#lyrics #github {
+  background-color: white;
+  background-image: url('../images/GitHubLogo_white.png');
+  background-position: 13px 6px;
+  background-repeat: no-repeat;
+  background-size: 10%;
+}
+#lyrics a#github:visited {
+  background-color: $gray-light;
+  color: white;
+}
+
+
+/***********************  WORDPRESS **************************/
+#lyrics #wordpress {
+  background-color: white;
+  background-image: url('../images/WordPressLogo_white.png');
+  background-position: 13px 6px;
+  background-repeat: no-repeat;
+  background-size: 10%;
+}
+#lyrics a#wordpress:visited {
+  background-color: $gray-light;
+  color: white;
+}
+
+
+/***********************  INSTAGRAM **************************/
+#lyrics #instagram {
+  background-color: white;
+  background-image: url('../images/InstagramLogo_white.png');
+  background-position: 14px 7px;
+  background-repeat: no-repeat;
+  background-size: 9%;
+}
+#lyrics a#instagram:visited {
+  background-color: $gray-light;
+  color: white;
+}
+
+
+/***********************  FACEBOOK **************************/
+#lyrics #facebook {
+  background-color: white;
+  background-image: url('../images/FacebookLogo_white.png');
+  background-position: 14px 7px;
+  background-repeat: no-repeat;
+  background-size: 9%;
+}
+#lyrics a#facebook:visited {
+  background-color: $gray-light;
+  color: white;
+}
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
