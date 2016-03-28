@@ -15,7 +15,8 @@ $icon-font-path: '../fonts/';
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  background: $gray-base;
+  background-image: url('../images/bgzin_zica.png');
+  background-color: $gray-darker;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -72,7 +73,7 @@ body {
 }
 
 #lyrics a {
-  padding: 15px 65px;
+  padding: 15px 0px 15px 65px;
 }
 
 /***********************  TWITTER **************************/
@@ -83,11 +84,6 @@ body {
   background-repeat: no-repeat;
   background-size: 13%;
 }
-#lyrics a#twitter:visited {
-  background-color: $gray-light;
-  color: white;
-}
-
 
 /***********************  LINKEDIN **************************/
 #lyrics #linkedin {
@@ -97,11 +93,6 @@ body {
   background-repeat: no-repeat;
   background-size: 10%;
 }
-#lyrics a#linkedin:visited {
-  background-color: $gray-light;
-  color: white;
-}
-
 
 /***********************  SPOTIFY **************************/
 #lyrics #spotify {
@@ -111,11 +102,6 @@ body {
   background-repeat: no-repeat;
   background-size: 10%;
 }
-#lyrics a#spotify:visited {
-  background-color: $gray-light;
-  color: white;
-}
-
 
 /***********************  GITHUB **************************/
 #lyrics #github {
@@ -125,11 +111,6 @@ body {
   background-repeat: no-repeat;
   background-size: 10%;
 }
-#lyrics a#github:visited {
-  background-color: $gray-light;
-  color: white;
-}
-
 
 /***********************  WORDPRESS **************************/
 #lyrics #wordpress {
@@ -139,11 +120,6 @@ body {
   background-repeat: no-repeat;
   background-size: 10%;
 }
-#lyrics a#wordpress:visited {
-  background-color: $gray-light;
-  color: white;
-}
-
 
 /***********************  INSTAGRAM **************************/
 #lyrics #instagram {
@@ -153,11 +129,6 @@ body {
   background-repeat: no-repeat;
   background-size: 9%;
 }
-#lyrics a#instagram:visited {
-  background-color: $gray-light;
-  color: white;
-}
-
 
 /***********************  FACEBOOK **************************/
 #lyrics #facebook {
@@ -167,7 +138,15 @@ body {
   background-repeat: no-repeat;
   background-size: 9%;
 }
-#lyrics a#facebook:visited {
+
+
+#lyrics a#twitter:hover,
+#lyrics a#linkedin:hover,
+#lyrics a#spotify:hover,
+#lyrics a#github:hover,
+#lyrics a#wordpress:hover,
+#lyrics a#instagram:hover,
+#lyrics a#facebook:hover {
   background-color: $gray-light;
   color: white;
 }
