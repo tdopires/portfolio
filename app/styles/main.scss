@@ -141,12 +141,26 @@ body {
 
 
 #lyrics a#twitter:hover,
+#lyrics a#twitter:active,
+#lyrics a#twitter:visited,
 #lyrics a#linkedin:hover,
+#lyrics a#linkedin:active,
+#lyrics a#linkedin:visited,
 #lyrics a#spotify:hover,
+#lyrics a#spotify:active,
+#lyrics a#spotify:visited,
 #lyrics a#github:hover,
+#lyrics a#github:active,
+#lyrics a#github:visited,
 #lyrics a#wordpress:hover,
+#lyrics a#wordpress:active,
+#lyrics a#wordpress:visited,
 #lyrics a#instagram:hover,
-#lyrics a#facebook:hover {
+#lyrics a#instagram:active,
+#lyrics a#instagram:visited,
+#lyrics a#facebook:hover,
+#lyrics a#facebook:active,
+#lyrics a#facebook:visited {
   background-color: $gray-light;
   color: white;
 }
